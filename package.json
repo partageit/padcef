@@ -1,6 +1,6 @@
 {
 	"name": "padcef",
-	"version": "0.0.9",
+	"version": "1.0.0",
 	"description": "Parse and download CSS external fonts",
 	"main": "index.js",
 	"scripts": {
@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "none for now"
+		"url": "https://github.com/partageit/padcef"
 	},
 	"keywords": [
 		"css",

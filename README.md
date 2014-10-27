@@ -40,6 +40,7 @@ Download fonts in this folder.
 
 - new option: exclude
 - new option: clean-dest
+- new option: do not overwrite existing font files
 - better tests (when [url-regex](https://github.com/kevva/url-regex) and [download](https://github.com/kevva/download) will accept http://localhost or http://127.0.0.1)
 
 ## [License](LICENSE)
