@@ -1,0 +1,30 @@
+{
+	"name": "padcef",
+	"version": "0.0.9",
+	"description": "Parse and download CSS external fonts",
+	"main": "index.js",
+	"scripts": {
+		"test": "tape test | tap-colorize"
+	},
+	"repository": {
+		"type": "git",
+		"url": "none for now"
+	},
+	"keywords": [
+		"css",
+		"postprocessor",
+		"font",
+		"offline"
+	],
+	"author": "David Duquenoy",
+	"license": "MIT",
+	"readmeFilename": "README.md",
+	"dependencies": {
+		"download": "^3.1.1",
+		"postcss": "^2.2.5"
+	},
+	"devDependencies": {
+		"tap-colorize": "^1.2.0",
+		"tape": "^2.13.4"
+	}
+}
