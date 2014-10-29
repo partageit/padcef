@@ -15,7 +15,7 @@ The aim of this plugin is to avoid cache, compression and other problems of font
 // dependencies
 var fs = require("fs")
 var postcss = require("postcss")
-var url = require("padcef")
+var padcef = require("padcef")
 
 // css to be processed
 var css = fs.readFileSync("input.css", "utf8")
@@ -41,6 +41,6 @@ Download fonts in this folder.
 - new option: exclude
 - new option: clean-dest
 - new option: do not overwrite existing font files
-- better tests (when [url-regex](https://github.com/kevva/url-regex) and [download](https://github.com/kevva/download) will accept http://localhost or http://127.0.0.1)
+- better tests (error handling test is missing)
 
 ## [License](LICENSE)

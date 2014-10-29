@@ -1,0 +1,15 @@
+@font-face{
+	font-family:"Bitter";
+	font-style:normal;
+	font-weight:400;
+	src:local("Bitter-Regular"),url("../external-fonts/s9gJB935qk_YG8d-lnTdvA.woff") format("woff");
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+	@font-face{
+		font-family:"Bitter";
+		font-style:normal;
+		font-weight:700;
+		src:local("Bitter-Bold"),url("../external-fonts/JGVZEP92dXgoQBG1CnQcfD8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
+	}
+}

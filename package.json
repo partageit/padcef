@@ -20,11 +20,11 @@
 	"license": "MIT",
 	"readmeFilename": "README.md",
 	"dependencies": {
-		"download": "^3.1.1",
-		"postcss": "^2.2.5"
+		"download": "^3.1.1"
 	},
 	"devDependencies": {
 		"tap-colorize": "^1.2.0",
-		"tape": "^2.13.4"
+		"tape": "^2.13.4",
+		"postcss": "^2.2.5"
 	}
 }
